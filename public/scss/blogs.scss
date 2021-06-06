@@ -1,0 +1,14 @@
+@use "index";
+
+.header {
+  @include index.header;
+}
+
+.SummaryBlogs {
+  @include index.summaries;
+
+}
+
+.footer {
+  @include index.footer;
+}

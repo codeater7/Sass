@@ -1,0 +1,20 @@
+@use "index";
+
+.header {
+  @include index.header;
+}
+
+.SummaryBlog {
+
+  @include index.summaries;
+}
+
+
+
+.footer {
+  @include index.footer;
+  position: relative;
+  top: 350px;
+
+
+}
